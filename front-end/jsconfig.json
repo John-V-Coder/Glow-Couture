@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // This tells the compiler to resolve paths relative to the current directory
+    "paths": {
+      "@/*": ["./src/*"] // This sets up the @/ alias to point to your src directory
+    }
+  },
+  "include": ["src"] // This tells VS Code and other tools to include files within the 'src' directory
+}
